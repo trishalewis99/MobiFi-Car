@@ -23,7 +23,7 @@ void setup()
   Serial.print("Connecting to ");
   Serial.println(ssid);
 
-  WiFi.begin("NETGEAR", "gomes0902");
+  WiFi.begin("NETGEAR", "wifi123");
 
   while (WiFi.status() != WL_CONNECTED)
   {
