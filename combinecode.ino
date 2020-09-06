@@ -33,8 +33,8 @@ void setup() {
   Serial.begin(115200);
    delay(10);     
        Serial.println("Connecting to ");
-       Serial.println("ELROYS WIFI");
-       WiFi.begin("NETGEAR","gomes0902"); 
+       Serial.println("TRISHA'S WIFI");
+       WiFi.begin("NETGEAR","wifi123"); 
        while (WiFi.status() != WL_CONNECTED) 
           {
             delay(500);
